@@ -20,14 +20,14 @@ function loadEmojioneArea() {
         const style = document.createElement('link');
         style.rel = 'stylesheet';
         style.crossOrigin = 'anonymous';
-        style.integrity = 'sha256-LKawN9UgfpZuYSE2HiCxxDxDgLOVDx2R4ogilBI52oc=';
-        style.href = 'https://cdn.jsdelivr.net/npm/emojionearea@3.4.2/dist/emojionearea.min.css';
+        style.integrity = 'sha512-vEia6TQGr3FqC6h55/NdU3QSM5XR6HSl5fW71QTKrgeER98LIMGwymBVM867C1XHIkYD9nMTfWK2A0xcodKHNA==';
+        style.href = 'https://s4.zstatic.net/ajax/libs/emojionearea/3.4.2/emojionearea.min.css';
         document.head.appendChild(style);
 
         const script = document.createElement('script');
         script.crossOrigin = 'anonymous';
-        script.integrity = 'sha256-ImIFrmJd7ymGlVw2MbtI96BNPW4NfcKqM3d1Go665Ig=';
-        script.src = 'https://cdn.jsdelivr.net/npm/emojionearea@3.4.2/dist/emojionearea.min.js';
+        script.integrity = 'sha512-hkvXFLlESjeYENO4CNi69z3A1puvONQV5Uh+G4TUDayZxSLyic5Kba9hhuiNLbHqdnKNMk2PxXKm0v7KDnWkYA==';
+        script.src = 'https://s4.zstatic.net/ajax/libs/emojionearea/3.4.2/emojionearea.min.js';
         script.onload = resolve;
         document.body.appendChild(script);
     });
